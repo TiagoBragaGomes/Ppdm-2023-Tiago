@@ -5,6 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>VOLTA PRA MIM</Text>
+      <Text>Teste</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -13,7 +14,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'red',
     alignItems: 'center',
     justifyContent: 'center',
   },
