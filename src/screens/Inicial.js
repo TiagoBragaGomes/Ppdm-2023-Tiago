@@ -1,5 +1,6 @@
 import { Button, View, StyleSheet } from "react-native";
 import { useNavigation } from '@react-navigation/native'
+import { ImageBackground } from "react-native-web";
 export default function Inicial() {
     const navigation = useNavigation();
     function cadastro() {
@@ -20,5 +21,6 @@ const style = StyleSheet.create({
         flex:1,
         justifyContent:"center",
         alignItems:"center"
+        
     }
 })
