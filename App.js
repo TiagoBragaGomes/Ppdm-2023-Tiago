@@ -1,5 +1,8 @@
 import { NavigationContainer } from "@react-navigation/native"
-import Navegacao from "./src/routes/Navegacao"
+import Navegaçao from "./src/routes/nave"
+
+
+
 function App() {
   return(
   <NavigationContainer>

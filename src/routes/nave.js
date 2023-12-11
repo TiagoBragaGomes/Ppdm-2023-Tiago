@@ -4,7 +4,7 @@ import Login from "../screens/login";
 import Cadastro from "../screens/cadastro";
 import Home from "../screens/home";
 
-export default function Navegacao() {
+export default function Navigation() {
     var Stack = createStackNavigator()
     return(
         <Stack.Navigator>

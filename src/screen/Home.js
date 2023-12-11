@@ -8,7 +8,7 @@ export default function Home() {
     }
     return (
         <View style={style.centrali}>
-            <Text>hub</Text>
+            <Text>Farm de mine </Text>
             <Button onPress={() => inicial()} title="Sair da conta"/>
         </View>
     )
